@@ -1,3 +1,4 @@
+//@ui5-bundle application/h/sectionsB/customBundle.js
 jQuery.sap.registerPreloadedModules({
 "version":"2.0",
 "modules":{
@@ -8,3 +9,4 @@ jQuery.sap.registerPreloadedModules({
 	"application/h/sectionsB/section3.js":function(){sap.ui.define(["sap/m/Button"],function(n){console.log("Section 3 included")});
 }
 }});
+//# sourceMappingURL=customBundle.js.map

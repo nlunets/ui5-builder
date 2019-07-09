@@ -1,3 +1,4 @@
+//@ui5-bundle library/d/library-preload.js
 jQuery.sap.registerPreloadedModules({
 "version":"2.0",
 "modules":{
@@ -7,3 +8,4 @@ jQuery.sap.registerPreloadedModules({
 console.log("HelloWorld");
 }
 }});
+//# sourceMappingURL=library-preload.js.map
