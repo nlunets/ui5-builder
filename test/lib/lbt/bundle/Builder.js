@@ -3,7 +3,7 @@ const test = require("ava");
 const Builder = require("../../../../lib/lbt/bundle/Builder");
 const ResourcePool = require("../../../../lib/lbt/resources/ResourcePool");
 
-const sourceMappingString = '//# sourceMappingURL=';
+const sourceMappingString = "//# sourceMappingURL=";
 test("integration: createBundle EVOBundleFormat (ui5loader.js)", async (t) => {
 	const pool = new ResourcePool();
 	pool.addResource({
